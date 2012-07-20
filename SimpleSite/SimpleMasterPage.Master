@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SimpleMasterPage.master.cs" Inherits="SimpleSite.SimpleMasterPage" %>
+<link href="SimpleStyle.css" rel="stylesheet" type="text/css" />
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="masterForm" runat="server">
+    <header id="header">
+    <p id="headerLogo">Simple Site</p>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Mission</li>
+            <li>Contact Us</li>
+        </ul>
+    </nav>
+    </header>
+    <div id="mainContent">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div id="rightContent">
+    <table>
+    <marquee behavior="scroll" direction="down" height:= "100%">
+    <tr><td>ehllo</td></tr>
+    <tr><td>lkjlksjd</td></tr>
+    <tr><td>jlkjlksjdf</td></tr><tr><td>ehllo</td></tr>
+    <tr><td>lkjlksjd</td></tr>
+    <tr><td>jlkjlksjdf</td></tr><tr><td>ehllo</td></tr>
+    <tr><td>lkjlksjd</td></tr>
+    <tr><td>jlkjlksjdf</td></tr><tr><td>ehllo</td></tr>
+    <tr><td>lkjlksjd</td></tr>
+    <tr><td>jlkjlksjdf</td></tr>
+    </marquee>
+    </table>
+    
+    </div>
+    <footer id="footer">
+    <table>
+    <tr>
+    <td></td>
+    <td id="contactAddress">
+    <p>full name <br /> 1234 N. Supreme Court <br /> Houston, Texas 20102</p>
+    </td>
+    <td id="copyRight">
+    Copy Right &copy; 2012
+    </td>
+    </tr>
+    </table>
+    </footer>
+    </form>
+</body>
+</html>

@@ -1,0 +1,5 @@
+C:\Users\Akrem O\Website Templates\SimpleSite\SimpleSite\bin\SimpleSite.dll
+C:\Users\Akrem O\Website Templates\SimpleSite\SimpleSite\bin\SimpleSite.pdb
+C:\Users\Akrem O\Website Templates\SimpleSite\SimpleSite\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Akrem O\Website Templates\SimpleSite\SimpleSite\obj\Debug\SimpleSite.dll
+C:\Users\Akrem O\Website Templates\SimpleSite\SimpleSite\obj\Debug\SimpleSite.pdb
